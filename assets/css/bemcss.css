@@ -1,0 +1,102 @@
+#content{
+
+    background-color: #f6f6f7;
+    max-width: 800px;
+    height: 5   00px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0;
+    margin-top: 150px;
+   
+  
+   
+}
+.accept{
+    font-size: 30px;
+}
+.close{
+    font-size: 15px;
+    
+}
+.accept--success{
+color: green;
+}
+.accept--inf{
+    color: blue;
+}
+.accept--warning{
+    color: yellow;
+}
+.button{
+
+    background-color: white;
+    border-left: 4px solid black;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding: 10px 0;
+    flex-wrap: nowrap;
+}
+.button + .button{
+    margin-top: 30px;
+}
+.button__icon{
+    display: flex;
+    align-items: center;
+    padding:0 20px;
+}
+.button__work{
+  flex-grow: 1;
+}
+.button__inside{
+    margin: 10px 0;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button--success{
+border-color: green;
+}
+.button--inf{
+    border-color:blue ;
+}
+.button--warning{
+    border-color:yellow ;  
+}
+.pc{
+    display: none;
+   font-size: 100px;
+   }
+   .tablet{
+   display: none;
+   font-size: 100px;
+   
+   }
+   .molbie{
+    display: none;
+    font-size: 100px;
+    }
+/* pc */
+@media(min-width: 1024px){
+.pc{
+    display: block;
+}
+}
+/* tablet */
+
+@media (min-width:740px) and (max-width:1023px){
+.tablet{
+    display: block;
+ }
+}
+
+/* molbie */
+@media(max-width:740px){
+.molbie{
+    display: block;
+}
+}
+
